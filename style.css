@@ -112,3 +112,24 @@
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+/* Portfolio Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 300px;
+    height: 430px;
+    margin: 10px; /* creates spacing between the images */
+}
