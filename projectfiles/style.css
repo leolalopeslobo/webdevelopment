@@ -1,0 +1,76 @@
+/* Basic CSS Syntax
+Selector {
+    Property: Value;
+} */
+
+/* CSS: Cascading Style Sheet 
+    Cascading means that it always takes the seletor that is at the end*/
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(backgroundimg.jpg);
+    background-size: cover; /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+    cursor: pointer; /* sets a particular pointer when we hover over */
+}
+h2, p {
+    color: #FF54F6;
+    text-align: center;
+    border: 5px dashed rgba(255, 176, 170, 0.5);
+}
+li {
+    font-family: "Comic sans MS";
+    list-style: none; /* removes the list style */
+    display: inline-block; /* This property is used to display an element as an inline-level block container. -> all in one straight line*/ 
+}
+p {
+    color: blueviolet;
+    background-color: bisque;
+}
+
+/* rgba-red green blue alpha
+alpha means the opacity, ranges from 0to1 */
+
+/* SELECTORS
+
+class
+id -> similar to class but it can used only once
+* -> it symbolizes all elements 
+:hover -> The :hover selector is used to select elements when you mouse over them (used specially for buttons)
+:first-child
+:last-child -> the :last-child selector matches every element that is the last child of its parent.*/
+
+/* class */
+.webtext:last-child {
+    border: 5px dashed green;
+}
+.active {
+    color: red;
+}
+
+/* id */
+#div1 {
+    background:rgba(255, 176, 170, 0.5);
+}
+
+#div2 {
+    background-color: rgba(10, 100, 150, 0.7);
+}
+h1 {
+    color: chartreuse !important;
+}
+h1 {
+    color: darkgoldenrod;
+}
+
+h3 > p {
+    color: #FF54F6;
+    text-align: right;
+    border: 5px dashed rgba(255, 176, 170, 0.5);
+}
+h4:hover {
+    border: 10px solid rgba(255, 176, 170, 0.5);
+    color: white;
+    text-align: right;
+}

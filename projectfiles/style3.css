@@ -1,0 +1,16 @@
+.boxmodel {
+    border: 5px solid salmon;
+    display: inline;
+    padding: 5px 20px 5px 20px; /* T R B L or TB LR*/ /*padding allows us to create space inside the border */
+    margin: 0px 20px 0px 20px; /*margin allows us to create space outside the border */
+    width: 33px;
+    height: 55px;
+}
+p {
+    font-size: 20px;
+}
+span {
+    font-size: 5em;
+}
+/* em -> font size will be equal to x times the containing element
+    rem -> font size will be equal to x times the root element i.e the html tag */
