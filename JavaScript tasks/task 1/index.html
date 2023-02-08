@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Examination Details</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+                            <label for="">Candidate's Full Name</label>
+                            <input type="text" name="cFullName" id="cFullName">
+                        </div>
+
+                        <div>
+                            <label for="">Candidate's Examination Code*</label><label class="validation-error hide" id="cCodeValidationError">This field is required.</label>
+                            <input type="text" name="cCode" id="cCode">
+                        </div>
+
+                        <div>
+                            <label for="">Candidate's Examination Center</label>
+                            <input type="text" name="cExamCenter" id="cExamCenter">
+                        </div>
+
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+
+                <td>
+                    <table class="table-list" id="table-list-id">
+                       <thead>
+                        <tr>
+                            <th>Candidate's Full Name</th>
+                            <th>Candidate's Examination Number</th>
+                            <th>Candidate's Examination Center</th>
+                            <th></th>
+                        </tr>
+                       </thead> 
+
+                       <tbody>
+
+                       </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <script text="text/javascript" src="script.js"></script>
+    </body>
+</html>
