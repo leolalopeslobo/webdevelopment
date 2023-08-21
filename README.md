@@ -6,9 +6,8 @@ https://github.com/nolimits4web/Swiper/blob/master/demos/380-responsive-breakpoi
 
 https://stackblitz.com/edit/swiper-demo-37-responsive-breakpoints?file=index.html
 
-
-
-For Automatic and Smooth Transition
+**For Automatic and Smooth Transition**
+```
 	<script>
 		var swiper = new Swiper('.mySwiper', {
       slidesPerView: 1,
@@ -37,3 +36,4 @@ For Automatic and Smooth Transition
       }
     });
 	</script>
+```
